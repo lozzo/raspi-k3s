@@ -8,7 +8,7 @@ resources:
 configMapGenerator:
   - name: cni-plugins
     literals:
-      - arch=arm64
+      - arch=amd64
       - version=v1.3.0
 
 generatorOptions:
