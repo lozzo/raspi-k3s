@@ -9,7 +9,7 @@ spec:
     {
       "cniVersion": "1.0.0",
       "type": "macvlan",
-      "master": "eth0",
+      "master": "eno2",
       "capabilities": {"mac": true},
       "ipam": {
         "type": "dhcp"
